@@ -1,4 +1,4 @@
-//Function to build and return render HTML
+//Exported function to build and return render HTML
 export const Business = (businessObject) => {
     return `
     <h2>${businessObject.companyName}</h2>
