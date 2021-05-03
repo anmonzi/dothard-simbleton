@@ -1,3 +1,4 @@
+import { AgentList } from "./AgentsList.js"
 import { BusinessList } from "./BusinessList.js"
 import { ManufacturingList } from "./ManufacturingList.js"
 import { NewYorkList } from "./NewYorkList.js"
@@ -7,3 +8,4 @@ import { NewYorkList } from "./NewYorkList.js"
 BusinessList()
 NewYorkList()
 ManufacturingList()
+AgentList()
