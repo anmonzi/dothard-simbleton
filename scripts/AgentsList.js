@@ -1,7 +1,11 @@
 import { Agents } from "./Agents.js"
 import { getBusinesses } from "./database.js"
+import { FoundAgent } from "./FoundAgentList.js"
+
 
 const contentTarget = document.querySelector(".agents")
+
+
 
 export const AgentList = () => {
     const businesses = getBusinesses()
